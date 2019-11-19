@@ -29,7 +29,7 @@ class Shows extends Component {
                         className="mr-3"
                     />
                     <Media.Body>
-                        <Link to={'/holiday-binge-buddy/shows/' + show.id}><h3>{show.Title}</h3></Link>
+                        <Link to={'/shows/' + show.id}><h3>{show.Title}</h3></Link>
                         <p>{show.Plot}</p>
                     </Media.Body>
                 </Media>
