@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Shows from './Components/Shows/Shows';
 import Show from './Components/Show/Show';
 import Episodes from './Components/Episodes/Episodes';
@@ -15,6 +15,7 @@ import NewShow from './Components/NewShow/NewShow';
 class App extends Component {
   render() {
     return (
+      <HashRouter basename='/'>
       <div>
         <Header />
         <main>
@@ -41,7 +42,8 @@ class App extends Component {
             />
           </Switch>
         </main>
-      </div>
+        </div>
+        </HashRouter>
     )
   }
 }
