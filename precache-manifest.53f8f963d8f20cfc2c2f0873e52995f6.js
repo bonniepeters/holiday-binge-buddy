@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0583b49b7c3a3c19c54a26352a261e2",
+    "revision": "420522028d7240aff502870f4896d610",
     "url": "/holiday-binge-buddy/index.html"
   },
   {
-    "revision": "24658d9410380bc0aca6",
+    "revision": "30cd16edc6193e074c7f",
     "url": "/holiday-binge-buddy/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "b295751876ccf06af60b",
+    "revision": "797ad1cb0489af10ca7e",
     "url": "/holiday-binge-buddy/static/css/main.b100e6da.chunk.css"
   },
   {
-    "revision": "24658d9410380bc0aca6",
-    "url": "/holiday-binge-buddy/static/js/2.d3a42123.chunk.js"
+    "revision": "30cd16edc6193e074c7f",
+    "url": "/holiday-binge-buddy/static/js/2.bef1771e.chunk.js"
   },
   {
-    "revision": "b295751876ccf06af60b",
-    "url": "/holiday-binge-buddy/static/js/main.5141a45d.chunk.js"
+    "revision": "797ad1cb0489af10ca7e",
+    "url": "/holiday-binge-buddy/static/js/main.00c88a3f.chunk.js"
   },
   {
     "revision": "c0fbb8c2e093f88b0667",
