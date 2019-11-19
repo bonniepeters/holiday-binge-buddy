@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/holiday-binge-buddy/static/css/main.b100e6da.chunk.css",
-    "main.js": "/holiday-binge-buddy/static/js/main.1a4849ab.chunk.js",
-    "main.js.map": "/holiday-binge-buddy/static/js/main.1a4849ab.chunk.js.map",
+    "main.js": "/holiday-binge-buddy/static/js/main.5dc53bbf.chunk.js",
+    "main.js.map": "/holiday-binge-buddy/static/js/main.5dc53bbf.chunk.js.map",
     "runtime-main.js": "/holiday-binge-buddy/static/js/runtime-main.d721ea98.js",
     "runtime-main.js.map": "/holiday-binge-buddy/static/js/runtime-main.d721ea98.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/holiday-binge-buddy/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.f5862971.chunk.js": "/holiday-binge-buddy/static/js/2.f5862971.chunk.js",
     "static/js/2.f5862971.chunk.js.map": "/holiday-binge-buddy/static/js/2.f5862971.chunk.js.map",
     "index.html": "/holiday-binge-buddy/index.html",
-    "precache-manifest.78378c0031ba419893f68ec51e04e05d.js": "/holiday-binge-buddy/precache-manifest.78378c0031ba419893f68ec51e04e05d.js",
+    "precache-manifest.b6ba507c123a0d6f055c77960f4117f2.js": "/holiday-binge-buddy/precache-manifest.b6ba507c123a0d6f055c77960f4117f2.js",
     "service-worker.js": "/holiday-binge-buddy/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/holiday-binge-buddy/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.b100e6da.chunk.css.map": "/holiday-binge-buddy/static/css/main.b100e6da.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.f5862971.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.1a4849ab.chunk.js"
+    "static/js/main.5dc53bbf.chunk.js"
   ]
 }
