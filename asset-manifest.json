@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/holiday-binge-buddy/static/css/main.b100e6da.chunk.css",
-    "main.js": "/holiday-binge-buddy/static/js/main.1fab1c3f.chunk.js",
-    "main.js.map": "/holiday-binge-buddy/static/js/main.1fab1c3f.chunk.js.map",
-    "runtime-main.js": "/holiday-binge-buddy/static/js/runtime-main.d721ea98.js",
-    "runtime-main.js.map": "/holiday-binge-buddy/static/js/runtime-main.d721ea98.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/holiday-binge-buddy/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.f5862971.chunk.js": "/holiday-binge-buddy/static/js/2.f5862971.chunk.js",
-    "static/js/2.f5862971.chunk.js.map": "/holiday-binge-buddy/static/js/2.f5862971.chunk.js.map",
-    "index.html": "/holiday-binge-buddy/index.html",
-    "precache-manifest.c592bbf9b67d09bdc27f189abbfef217.js": "/holiday-binge-buddy/precache-manifest.c592bbf9b67d09bdc27f189abbfef217.js",
-    "service-worker.js": "/holiday-binge-buddy/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/holiday-binge-buddy/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.b100e6da.chunk.css.map": "/holiday-binge-buddy/static/css/main.b100e6da.chunk.css.map"
+    "main.css": "./static/css/main.b100e6da.chunk.css",
+    "main.js": "./static/js/main.6efa97f6.chunk.js",
+    "main.js.map": "./static/js/main.6efa97f6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6ac3b647.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6ac3b647.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "./static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.f5862971.chunk.js": "./static/js/2.f5862971.chunk.js",
+    "static/js/2.f5862971.chunk.js.map": "./static/js/2.f5862971.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.b2d10e440aa1f19c3cc5e3798f7aa13b.js": "./precache-manifest.b2d10e440aa1f19c3cc5e3798f7aa13b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "./static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "./static/css/main.b100e6da.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d721ea98.js",
+    "static/js/runtime-main.6ac3b647.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.f5862971.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.1fab1c3f.chunk.js"
+    "static/js/main.6efa97f6.chunk.js"
   ]
 }
