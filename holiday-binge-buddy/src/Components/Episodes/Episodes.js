@@ -27,7 +27,7 @@ class Episodes extends Component {
                         className="mr-3"
                     />
                     <Media.Body>
-                        <Link to={'/holiday-binge-buddy/#/episodes/' + episode.id}><h3>{episode.Title}</h3></Link>
+                        <Link to={'/episodes/' + episode.id}><h3>{episode.Title}</h3></Link>
                         <p>{episode.Plot}</p>
                     </Media.Body>
                 </Media>
