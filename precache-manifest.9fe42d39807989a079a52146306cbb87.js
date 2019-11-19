@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c9401d2995d72607eca3bea25a1e120",
+    "revision": "550bb451759f87fc9ab89a9108fafe09",
     "url": "/holiday-binge-buddy/index.html"
   },
   {
