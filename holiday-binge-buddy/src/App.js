@@ -20,7 +20,8 @@ class App extends Component {
         <Header />
         <main>
           <Switch>
-            <Route exact={true} path="/" component={Shows} />            <Route exact={true} path="/show/add" component={NewShow} />
+              <Route exact={true} path={"/"} render={ (routerProps) => < Shows routerProps={routerProps} />} />
+             <Route exact={true} path="/show/add" component={NewShow} />
             <Route exact={true} path="/episodes" component={Episodes} />
             <Route
 							path="/shows/:id"
