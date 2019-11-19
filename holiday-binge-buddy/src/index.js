@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 ReactDOM.render(
-    <Router basename={"/holiday-binge-buddy/#/"}>
+    <Router>
         <App />
     </Router>,
     document.getElementById('root')

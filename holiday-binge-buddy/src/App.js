@@ -20,10 +20,10 @@ class App extends Component {
         <main>
           <Switch>
             <Route exact={true} path="/" component={Shows} />{" "}
-            <Route exact={true} path="/#/show/add" component={NewShow} />
-            <Route exact={true} path="/holiday-binge-buddy/#/episodes" component={Episodes} />
+            <Route exact={true} path="/show/add" component={NewShow} />
+            <Route exact={true} path="/episodes" component={Episodes} />
             <Route
-              path="/holiday-binge-buddy/shows/:id"
+              path="/shows/:id"
               render={routerProps => (
                 <Show match={routerProps.match} id={this.props.id} />
               )}

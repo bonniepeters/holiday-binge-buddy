@@ -11,8 +11,8 @@ class Header extends Component {
                         alt="logo"/>
         <Breadcrumb>
           <Breadcrumb.Item href="/">Shows</Breadcrumb.Item>
-          <Breadcrumb.Item href="/holiday-binge-buddy/#/episodes">Episodes</Breadcrumb.Item>
-          <Breadcrumb.Item href="/#/show/add">Add a Show</Breadcrumb.Item>
+          <Breadcrumb.Item href="/episodes">Episodes</Breadcrumb.Item>
+          <Breadcrumb.Item href="/show/add">Add a Show</Breadcrumb.Item>
         </Breadcrumb>
       </header>
     );
