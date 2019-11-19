@@ -33,7 +33,7 @@ class Show extends Component {
     let listEpisodes = this.state.episodes.map(episode => {
       return (
         <li>
-          <Link to={"/#/episodes/" + episode.id}>
+          <Link to={"/holiday-binge-buddy/#/episodes/" + episode.id}>
             <h5>
               S{episode.Season}/E{episode.Episode} - {episode.Title}
             </h5>
