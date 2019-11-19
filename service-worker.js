@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/holiday-binge-buddy/precache-manifest.e1b87b9c8a22ee7a728b818d4d39d66e.js"
+  "/holiday-binge-buddy/precache-manifest.bda52a943d2719ea4a75007385c3102e.js"
 );
 
 self.addEventListener('message', (event) => {
