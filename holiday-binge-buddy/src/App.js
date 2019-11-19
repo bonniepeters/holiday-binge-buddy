@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Shows from './Components/Shows/Shows';
 import Show from './Components/Show/Show';
 import Episodes from './Components/Episodes/Episodes';
@@ -15,16 +15,14 @@ import NewShow from './Components/NewShow/NewShow';
 class App extends Component {
   render() {
     return (
-      <HashRouter>
       <div>
         <Header />
         <main>
           <Switch>
-              <Route exact={true} path={"/"} render={ (routerProps) => < Shows routerProps={routerProps} />} />
-            <Route exact={true} path={"/show/add"} render={ (routerProps) => < NewShow routerProps={routerProps} />} />
-            <Route exact={true} path={"/episodes"} render={ (routerProps) => <Episodes routerProps={routerProps} />} />
+            <Route exact={true} path="/" component={Shows} />            <Route exact={true} path="/show/add" component={NewShow} />
+            <Route exact={true} path="/episodes" component={Episodes} />
             <Route
-              path={"/shows/:id"}
+							path="/shows/:id"
 							render={routerProps => (
 								<Show
 									match={routerProps.match}
@@ -33,7 +31,7 @@ class App extends Component {
 							)}
             />
             <Route
-              path={"/episodes/:id"}
+							path="/episodes/:id"
 							render={routerProps => (
 								<Episode
 									match={routerProps.match}
@@ -43,8 +41,7 @@ class App extends Component {
             />
           </Switch>
         </main>
-        </div>
-        </HashRouter>
+      </div>
     )
   }
 }

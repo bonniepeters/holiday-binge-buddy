@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from 'axios';
-import EditEpisode from '../Edit-Episode-Form/Edit-Episode-Form';
+import EditEpisode from "../EditEpisode/EditEpisode";
 
 class Episode extends Component {
 	constructor(props) {
@@ -36,7 +36,7 @@ class Episode extends Component {
               <p>
               {this.state.episode.Plot}
           </p>
-        <EditEpisode episodeId={this.state.episodeId}></EditEpisode>
+          <EditEpisode episode={this.state.episode} episodeId={this.state.episodeId} ></EditEpisode>
           </div>
       )
   }

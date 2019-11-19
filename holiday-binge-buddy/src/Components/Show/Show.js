@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { Button } from "react-bootstrap";
-import AddEpisode from "../New-Episode-Form/New-Episode-Form";
+import NewEpisode from "../NewEpisode/NewEpisode";
 
 class Show extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class Show extends Component {
   handleDelete(e) {
     e.preventDefault();
     axios.delete(
-      `https://holiday-binge-buddy.herokuapp.com/shows/${this.props.showID}`
+      `https://holiday-binge-buddy.herokuapp.com/shows/${this.state.showId}`
     );
   }
   componentDidMount() {
@@ -47,6 +47,7 @@ class Show extends Component {
         </li>
       );
     });
+    console.log(this.state.show)
     return (
       <div>
         <h3>{this.state.show.Title}</h3>
@@ -68,7 +69,7 @@ class Show extends Component {
         />
         <p>{this.state.show.Plot}</p>
         <h4>Holiday Episodes</h4>
-        <AddEpisode showID={this.state.showId}></AddEpisode>
+        <NewEpisode showImdbId={this.state.show.imdbID} showID={this.state.showId} showTitle={this.state.show.Title}/>
         <ul>{listEpisodes}</ul>
         <Button variant="danger" onClick={this.handleDelete}>
           Delete

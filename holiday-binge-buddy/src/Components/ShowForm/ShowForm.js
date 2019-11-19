@@ -15,13 +15,13 @@ class ShowForm extends Component {
               name="title"
               value={this.props.show.Title}
             />
-                </Form.Group>
-                <img
-                        width={150}
-                        src={this.props.show.Poster}
-                        alt="show poster"
-                        className="mr-3"
-                />
+          </Form.Group>
+          <img
+            width={150}
+            src={this.props.show.Poster}
+            alt="show poster"
+            className="mr-3"
+          />
           <Form.Group md="4">
             <Form.Label>Broadcasted</Form.Label>
             <Form.Control
@@ -48,9 +48,7 @@ class ShowForm extends Component {
               name="plot"
               value={this.props.show.Plot}
             />
-                </Form.Group>
-
-
+          </Form.Group>
           <Form.Group md="4">
             <Form.Label>totalSeasons</Form.Label>
             <Form.Control
